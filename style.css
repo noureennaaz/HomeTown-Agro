@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+}
+
+
+.wrapper{
+    box-sizing :border-box;
+    margin: 0px ;
+    padding :0px ;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* navigation bar  */
+.navbar{
+    /* border: 2px solid rgb(220, 247, 123);  
+    padding: 5px;
+   
+    list-style: none;*/
+    /* width: 100%;
+    position: sticky; */   
+    display: inline;
+    list-style: none;
+    font-size: 20px; 
+    color: white;
+    /* background-color: rgb(66, 241, 74); */
+  }
+
+  /* list item of navigation bar  */
+  li{
+    float: right;
+    margin: 10px;
+    padding: 8px;
+
+}
+/* special class of list item  */
+li:hover{
+    color: rgb(247, 200, 138);
+}
+
+/* search button  */
+#search{
+    /* margin: 20px; */
+    border-radius: 20px;
+    float: left;
+}
+
+.image_slide{
+
+padding-top:2rem;
+padding-left:5rem;
+height: 65vh;
+width: 100vw;
+transform-style: preserve-3d;
+background:url(https://th.bing.com/th/id/R.c1a575348a47940a6bdf973094339ba6?rik=9eiiXl6SNzj10w&riu=http%3a%2f%2fwheat.org%2fwp-content%2fuploads%2fsites%2f4%2f2015%2f09%2fFarmer-with-wheat-harvest-2-1024x683.jpg&ehk=Wxkm0%2bUACz%2b7NVPI1jMxzIoIbezoEfHLAdg%2fqfTkVdg%3d&risl=&pid=ImgRaw&r=0) no-repeat center fixed;
+    background-size: cover;
+    border :2px solid black;
+    display :flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+
+
+
+.body{
+    padding:5rem;
+    gap: 50px;
+    
+    /* background:linear-gradient(rgb(170, 231, 181), rgba(106, 158, 106, 0.966)); */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+h1{
+    padding-top:100px;
+    z-index:9;
+    color:White;
+   /* float:left; */
+}
+h4{
+    
+    position:relative;
+}
+.block{
+
+    
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    /* margin: 35px 130px 35px 120px; */
+    border: 2px solid black;
+    box-shadow: 5px 5px ;
+    overflow:hidden;
+    justify-content:space-evenly;
+    
+    box-shadow: 0 0 20px black;
+}
+.block img{
+    object-fit:cover;
+    height: 100%;
+    width:100%;
+    filter :greyscale(60%);
+    
+}
+
+figure{
+    position:relative; 
+    color: black; 
+}
+
+
+.block:hover{
+    scale: 1.03;
+    filter:drop-shadow(0 0 10px #333);
+    transition:0.5s;
+
+}
+
+figcaption
+{
+    position:absolute;
+    bottom:15px;
+    color: white;
+    background-image: linear-gradient(rgba(39 , 36, 36 , 1), rgba(162,149,149,0.18));
+
+}
+
+
+div > p{
+    
+    align-items: center;
+    
+}
+.footer{
+
+    border: 2px solid black;
+    width: 98%;
+    background-color: rgb(36 161 55);
+    display:flex;
+    justify-content: center;
+    font-size: small;
+
+}
